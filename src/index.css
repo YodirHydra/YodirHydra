@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #050816;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #050816;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 229, 255, 0.4);
+  }
+}
+
+/* Luxury Glassmorphism card spec */
+.glass-panel {
+  background: rgba(5, 8, 22, 0.45);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  
+  /* Graduated opacity borders: brighter at top for light reflection */
+  border-top: 1.5px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  border-left: 1px solid rgba(255, 255, 255, 0.07);
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+  
+  /* Multiple layered depth shadows and subtle cyan inner glow */
+  box-shadow: 
+    0 10px 40px -10px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 0 20px rgba(0, 229, 255, 0.02);
+}
+
+.glass-panel-hover {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-panel-hover:hover {
+  background: rgba(8, 12, 32, 0.55);
+  
+  /* Transition borders to subtle blue glow highlights */
+  border-top-color: rgba(255, 255, 255, 0.22);
+  border-bottom-color: rgba(0, 229, 255, 0.15);
+  border-left-color: rgba(0, 229, 255, 0.15);
+  border-right-color: rgba(0, 229, 255, 0.15);
+  
+  transform: translateY(-6px) scale(1.005);
+  box-shadow: 
+    0 20px 50px -10px rgba(0, 0, 0, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 0 30px rgba(0, 229, 255, 0.08); /* Cyber edge glow */
+}
+
+/* Glass Reflection Sheen Hover Animation */
+.glass-reflection {
+  position: relative;
+  overflow: hidden;
+}
+.glass-reflection::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 45%,
+    rgba(255, 255, 255, 0.08) 50%,
+    transparent 55%
+  );
+  transform: rotate(-45deg) translate(-100%, -100%);
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+.glass-reflection:hover::after {
+  transform: rotate(-45deg) translate(100%, 100%);
+}
+
+/* Text Gradient Utilities */
+.text-gradient-cyan {
+  background: linear-gradient(to right, #00E5FF, #5B8CFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-purple {
+  background: linear-gradient(to right, #5B8CFF, #7C3AED);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-tricolor {
+  background: linear-gradient(to right, #00E5FF, #5B8CFF, #7C3AED);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Neon shadows */
+.neon-glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);
+}
+.neon-glow-purple {
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.2);
+}
+.neon-glow-blue {
+  box-shadow: 0 0 20px rgba(91, 140, 255, 0.2);
+}
+
+/* Typing cursor blink */
+.typing-cursor::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { color: transparent }
+  50% { color: #00E5FF }
+}
+
+/* Background grid mesh */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+/* Custom selection */
+::selection {
+  background: rgba(0, 229, 255, 0.2);
+  color: #00E5FF;
+}
+
+.transition-cubic {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Cybernetic Bobbing float animation */
+@keyframes bob {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+.float-bob {
+  animation: bob 8s ease-in-out infinite;
+}
+
+/* SVG path tracing animation for tech-lines background */
+@keyframes draw-path {
+  0% { stroke-dashoffset: 1000; opacity: 0.05; }
+  50% { opacity: 0.15; }
+  100% { stroke-dashoffset: 0; opacity: 0.05; }
+}
+.tech-line-animate {
+  stroke-dasharray: 400;
+  animation: draw-path 35s linear infinite;
+}
+
+@keyframes wave-float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1.5deg); }
+}
+.floating-wave {
+  animation: wave-float 18s ease-in-out infinite;
+}
