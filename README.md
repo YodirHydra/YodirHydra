@@ -36,7 +36,7 @@ Cybersecurity Enthusiast | IT Student | Future Security Professional
 
 IT student and cybersecurity enthusiast focused on learning how systems and networks work, identifying vulnerabilities, and improving digital security.
 
-# Tech Stack
+## Tech Stack
 
 ### Languages
 
