@@ -31,13 +31,10 @@ Cybersecurity Enthusiast | IT Student | Future Security Professional
     <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
+
 ## About Me
 
 IT student and cybersecurity enthusiast focused on learning how systems and networks work, identifying vulnerabilities, and improving digital security.
-
-## Focus Areas
-
-Defensive Security • Ethical Hacking • Network Security • Web Security • SOC & Threat Detection
 
 # Tech Stack
 
