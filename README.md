@@ -1,12 +1,12 @@
-<!-- HEADER -->
+<!-- ======================= HEADER ======================= -->
 
-<h2 align="center">Hi there, I'm</h2>
+<h1 align="center">Hi there, I'm</h1>
 
 <h1 align="center">Parvez Hossen Badal</h1>
 
-<p align="center">
-  <b>Cybersecurity Enthusiast | IT Student | Future Security Professional</b>
-</p>
+<h3 align="center">
+Cybersecurity Enthusiast | IT Student | Future Security Professional
+</h3>
 
 <p align="center">
   <code>Cybersecurity</code> /
@@ -16,96 +16,120 @@
 
 <p align="center">
   <a href="YOUR_PORTFOLIO_LINK">
-    <img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=flat-square" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=for-the-badge&logoColor=white" />
   </a>
+
   <a href="YOUR_LINKEDIN_LINK">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+
   <a href="mailto:YOUR_EMAIL">
-    <img src="https://img.shields.io/badge/EMAIL-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+
   <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
+## About Me
 
-<hr>
+IT student and cybersecurity enthusiast focused on learning how systems and networks work, identifying vulnerabilities, and improving digital security.
 
-<h3>About Me</h3>
+## Focus Areas
 
-<sub>
-IT student and cybersecurity enthusiast focused on understanding systems, networks, vulnerabilities, and digital security.
-</sub>
-
-<h3>Focus Areas</h3>
-
-<sub>
 Defensive Security • Ethical Hacking • Network Security • Web Security • SOC & Threat Detection
-</sub>
 
-<hr>
+# Tech Stack
 
-<h3>Tech Stack</h3>
+### Languages
 
-<sub><b>Languages</b></sub><br>
+<p>
+  <img src="https://skillicons.dev/icons?i=python,java,html,css,js" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=python,java,html,css,js&perline=8" height="38"/>
+### Operating Systems
 
-<br><br>
+<p>
+  <img src="https://skillicons.dev/icons?i=linux" />
 
-<sub><b>Operating Systems</b></sub><br>
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
 
-<img src="https://skillicons.dev/icons?i=linux&perline=8" height="38"/>
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
+</p>
 
-<br><br>
+### Cybersecurity & Networking
 
-<sub><b>Security & Networking</b></sub><br>
+<p>
+  <img src="https://img.shields.io/badge/Nmap-214478?style=for-the-badge" />
 
-<img src="https://img.shields.io/badge/Nmap-214478?style=flat-square"/>
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white"/>
-<img src="https://img.shields.io/badge/TCP%2FIP-374151?style=flat-square"/>
-<img src="https://img.shields.io/badge/DNS-374151?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
 
-<br><br>
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
 
-<sub><b>Tools</b></sub><br>
+  <img src="https://img.shields.io/badge/TCP%2FIP-0D1117?style=for-the-badge" />
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker&perline=8" height="38"/>
+  <img src="https://img.shields.io/badge/DNS-0D1117?style=for-the-badge" />
+</p>
 
-<hr>
+### Tools & Platforms
 
-<h3>Currently Learning</h3>
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker" />
+</p>
 
-<sub>
-Ethical Hacking • Web Security • SOC & SIEM • Vulnerability Assessment • Penetration Testing
-</sub>
+---
 
-<hr>
+## Currently Learning
 
-<h3>GitHub Statistics</h3>
+<p>
+  <img src="https://img.shields.io/badge/Ethical_Hacking-111827?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Network_Security-111827?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Web_Security-111827?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/SOC_%26_SIEM-111827?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Linux_Security-111827?style=for-the-badge" />
+</p>
+
+---
+
+## GitHub Statistics
 
 <p align="center">
   <img
     src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"
-    height="150"
+    height="170"
   />
+
   <img
     src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true"
-    height="150"
+    height="170"
   />
 </p>
 
-<h3>Goal</h3>
-
-<sub>
-To become a skilled cybersecurity professional through continuous learning and hands-on practice.
-</sub>
-
-<hr>
-
 <p align="center">
-  <b>Stay Curious. Stay Ethical. Stay Secure.</b>
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true"
+  />
 </p>
+
+---
+
+## Cybersecurity Journey
+
+```text
+[+] Linux Fundamentals
+[+] Networking Fundamentals
+[+] TCP/IP and DNS
+[+] Git and GitHub
+
+[~] Ethical Hacking
+[~] Web Application Security
+[~] Vulnerability Assessment
+[~] Penetration Testing
+
+[>] SOC and Threat Detection
+[>] SIEM and Log Analysis
+[>] Digital Forensics
